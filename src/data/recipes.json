@@ -1,0 +1,430 @@
+[
+  {
+    "id": "rec-1",
+    "name": "Quick Spinach & Cheddar Omelette",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggs", "quantity": 4, "unit": "pcs", "category": "dairy" },
+      { "name": "Spinach / Fresh Greens", "quantity": 80, "unit": "g", "category": "produce" },
+      { "name": "Cheddar Cheese", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "name": "Butter", "quantity": 15, "unit": "g", "category": "dairy" }
+    ],
+    "instructions": "Whisk eggs, saute spinach in butter until wilted, pour eggs over and top with grated cheddar. Fold when set."
+  },
+  {
+    "id": "rec-2",
+    "name": "Greek Yogurt Berry Parfait",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 5,
+    "servings": 1,
+    "ingredients": [
+      { "name": "Greek Yogurt", "quantity": 200, "unit": "g", "category": "dairy" },
+      { "name": "Berries (Strawberries/Blueberries)", "quantity": 100, "unit": "g", "category": "produce" },
+      { "name": "Honey", "quantity": 20, "unit": "g", "category": "pantry" },
+      { "name": "Rolled Oats", "quantity": 40, "unit": "g", "category": "grains" }
+    ],
+    "instructions": "Layer chilled Greek yogurt with freshly washed berries, lightly toasted rolled oats, and a drizzle of honey."
+  },
+  {
+    "id": "rec-3",
+    "name": "Classic Oatmeal with Sliced Banana",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 8,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Rolled Oats", "quantity": 100, "unit": "g", "category": "grains" },
+      { "name": "Milk (Whole/Skim)", "quantity": 300, "unit": "ml", "category": "dairy" },
+      { "name": "Bananas", "quantity": 2, "unit": "pcs", "category": "produce" },
+      { "name": "Honey", "quantity": 15, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": "Simmer oats in milk until creamy. Top with thinly sliced ripe banana and sweeten with honey."
+  },
+  {
+    "id": "rec-4",
+    "name": "Peanut Butter Banana Toast",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 5,
+    "servings": 1,
+    "ingredients": [
+      { "name": "Sliced Sandwich Bread", "quantity": 2, "unit": "pcs", "category": "grains" },
+      { "name": "Peanut Butter", "quantity": 30, "unit": "g", "category": "pantry" },
+      { "name": "Bananas", "quantity": 1, "unit": "pcs", "category": "produce" }
+    ],
+    "instructions": "Toast sandwich bread until golden brown. Spread thick peanut butter and arrange sliced banana coins on top."
+  },
+  {
+    "id": "rec-5",
+    "name": "Avocado & Poached Egg Toast",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 12,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Sliced Sandwich Bread", "quantity": 2, "unit": "pcs", "category": "grains" },
+      { "name": "Avocado", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Eggs", "quantity": 2, "unit": "pcs", "category": "dairy" },
+      { "name": "Olive Oil", "quantity": 10, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Toast bread. Mash ripe avocado with a dash of olive oil and salt. Top with poached or sunny-side eggs."
+  },
+  {
+    "id": "rec-6",
+    "name": "Creamy Scrambled Eggs with Herbs",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 7,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Eggs", "quantity": 4, "unit": "pcs", "category": "dairy" },
+      { "name": "Butter", "quantity": 20, "unit": "g", "category": "dairy" },
+      { "name": "Milk (Whole/Skim)", "quantity": 30, "unit": "ml", "category": "dairy" }
+    ],
+    "instructions": "Beat eggs with a splash of milk. Gently scramble over low heat in melting butter until soft curds form."
+  },
+  {
+    "id": "rec-7",
+    "name": "Garlic Butter Pan-Seared Chicken Breast",
+    "mealType": "dinner",
+    "prepTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Chicken Breast (Fresh)", "quantity": 400, "unit": "g", "category": "meat" },
+      { "name": "Garlic", "quantity": 3, "unit": "pcs", "category": "produce" },
+      { "name": "Butter", "quantity": 25, "unit": "g", "category": "dairy" },
+      { "name": "Olive Oil", "quantity": 15, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Season chicken breasts. Sear in olive oil over medium-high heat for 6 mins per side. Baste with minced garlic and butter."
+  },
+  {
+    "id": "rec-8",
+    "name": "Hearty Black Bean & Rice Burrito Bowl",
+    "mealType": "lunch",
+    "prepTimeMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      { "name": "White Rice", "quantity": 150, "unit": "g", "category": "grains" },
+      { "name": "Canned Black Beans", "quantity": 240, "unit": "g", "category": "pantry" },
+      { "name": "Tomatoes", "quantity": 2, "unit": "pcs", "category": "produce" },
+      { "name": "Avocado", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Onions", "quantity": 1, "unit": "pcs", "category": "produce" }
+    ],
+    "instructions": "Warm cooked rice and rinsed black beans. Top with diced fresh tomatoes, minced onion, and sliced avocado."
+  },
+  {
+    "id": "rec-9",
+    "name": "Rich Tomato & Garlic Pasta",
+    "mealType": "dinner",
+    "prepTimeMinutes": 18,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Dry Pasta", "quantity": 250, "unit": "g", "category": "grains" },
+      { "name": "Canned Crushed Tomatoes", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "name": "Garlic", "quantity": 4, "unit": "pcs", "category": "produce" },
+      { "name": "Olive Oil", "quantity": 30, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Boil pasta al dente. In a skillet, gently sizzle sliced garlic in olive oil, stir in crushed tomatoes, simmer 10 mins and toss with pasta."
+  },
+  {
+    "id": "rec-10",
+    "name": "Crispy Ground Beef Tacos",
+    "mealType": "dinner",
+    "prepTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Ground Beef (Fresh)", "quantity": 400, "unit": "g", "category": "meat" },
+      { "name": "Tortillas", "quantity": 6, "unit": "pcs", "category": "grains" },
+      { "name": "Onions", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Cheddar Cheese", "quantity": 80, "unit": "g", "category": "dairy" },
+      { "name": "Tomatoes", "quantity": 2, "unit": "pcs", "category": "produce" }
+    ],
+    "instructions": "Brown beef with diced onions and taco spices. Warm tortillas, assemble with browned beef, diced tomatoes, and shredded cheese."
+  },
+  {
+    "id": "rec-11",
+    "name": "Pan-Seared Salmon with Steamed Broccoli",
+    "mealType": "dinner",
+    "prepTimeMinutes": 18,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Salmon Fillet (Fresh)", "quantity": 350, "unit": "g", "category": "meat" },
+      { "name": "Broccoli", "quantity": 250, "unit": "g", "category": "produce" },
+      { "name": "Butter", "quantity": 20, "unit": "g", "category": "dairy" },
+      { "name": "Olive Oil", "quantity": 10, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Pan-sear salmon skin-side down in olive oil until crisp (4 mins), flip and finish with butter. Steam broccoli florets until tender-crisp."
+  },
+  {
+    "id": "rec-12",
+    "name": "Colorful Vegetable Stir-Fry with Rice",
+    "mealType": "dinner",
+    "prepTimeMinutes": 15,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Frozen Mixed Vegetables", "quantity": 300, "unit": "g", "category": "frozen" },
+      { "name": "White Rice", "quantity": 200, "unit": "g", "category": "grains" },
+      { "name": "Soy Sauce", "quantity": 30, "unit": "ml", "category": "pantry" },
+      { "name": "Garlic", "quantity": 2, "unit": "pcs", "category": "produce" },
+      { "name": "Olive Oil", "quantity": 15, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Wok-sear frozen mixed veggies with minced garlic in oil. Deglaze with savory soy sauce and serve steaming over white rice."
+  },
+  {
+    "id": "rec-13",
+    "name": "Classic Grilled Cheese with Tomato Soup",
+    "mealType": "lunch",
+    "prepTimeMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Sliced Sandwich Bread", "quantity": 4, "unit": "pcs", "category": "grains" },
+      { "name": "Cheddar Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "name": "Butter", "quantity": 30, "unit": "g", "category": "dairy" },
+      { "name": "Canned Crushed Tomatoes", "quantity": 300, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": "Butter bread outer slices and sandwich cheddar inside. Toast until molten golden. Warm crushed tomatoes with butter and salt for dipping."
+  },
+  {
+    "id": "rec-14",
+    "name": "Garlic Herb Roasted Potatoes & Carrots",
+    "mealType": "dinner",
+    "prepTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Potatoes", "quantity": 400, "unit": "g", "category": "produce" },
+      { "name": "Carrots", "quantity": 250, "unit": "g", "category": "produce" },
+      { "name": "Garlic", "quantity": 4, "unit": "pcs", "category": "produce" },
+      { "name": "Olive Oil", "quantity": 25, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Chop potatoes and carrots into bite-sized chunks. Toss with minced garlic, olive oil, and roast at 200°C for 30 minutes until crisp."
+  },
+  {
+    "id": "rec-15",
+    "name": "Warm BLT Style Bacon & Egg Roll",
+    "mealType": "lunch",
+    "prepTimeMinutes": 12,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Bacon", "quantity": 150, "unit": "g", "category": "meat" },
+      { "name": "Eggs", "quantity": 2, "unit": "pcs", "category": "dairy" },
+      { "name": "Sliced Sandwich Bread", "quantity": 4, "unit": "pcs", "category": "grains" },
+      { "name": "Tomatoes", "quantity": 1, "unit": "pcs", "category": "produce" }
+    ],
+    "instructions": "Pan-fry bacon until crisp; fry eggs in bacon drippings. Assemble between toasted bread slices with juicy tomato wheels."
+  },
+  {
+    "id": "rec-16",
+    "name": "Egg Fried Rice with Mixed Veggies",
+    "mealType": "lunch",
+    "prepTimeMinutes": 12,
+    "servings": 2,
+    "ingredients": [
+      { "name": "White Rice", "quantity": 200, "unit": "g", "category": "grains" },
+      { "name": "Eggs", "quantity": 3, "unit": "pcs", "category": "dairy" },
+      { "name": "Frozen Mixed Vegetables", "quantity": 150, "unit": "g", "category": "frozen" },
+      { "name": "Soy Sauce", "quantity": 25, "unit": "ml", "category": "pantry" },
+      { "name": "Olive Oil", "quantity": 15, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Scramble eggs quickly and set aside. Stir-fry vegetables, toss in chilled cooked rice and soy sauce, then fold scrambled eggs back in."
+  },
+  {
+    "id": "rec-17",
+    "name": "Tender Pork Chops with Applesauce Glaze",
+    "mealType": "dinner",
+    "prepTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Pork Chops", "quantity": 350, "unit": "g", "category": "meat" },
+      { "name": "Apples", "quantity": 2, "unit": "pcs", "category": "produce" },
+      { "name": "Butter", "quantity": 20, "unit": "g", "category": "dairy" },
+      { "name": "Honey", "quantity": 15, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": "Sear seasoned pork chops until golden (4 mins/side). Saute diced apples in butter with honey until caramelized; serve over chops."
+  },
+  {
+    "id": "rec-18",
+    "name": "Cheesy Black Bean Quesadillas",
+    "mealType": "lunch",
+    "prepTimeMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Tortillas", "quantity": 4, "unit": "pcs", "category": "grains" },
+      { "name": "Canned Black Beans", "quantity": 180, "unit": "g", "category": "pantry" },
+      { "name": "Cheddar Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "name": "Bell Peppers", "quantity": 1, "unit": "pcs", "category": "produce" }
+    ],
+    "instructions": "Layer mashed beans, sliced bell peppers, and cheese between tortillas. Crisp in a dry skillet until melted and golden."
+  },
+  {
+    "id": "rec-19",
+    "name": "Chicken Fajitas with Bell Peppers & Onions",
+    "mealType": "dinner",
+    "prepTimeMinutes": 20,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Chicken Breast (Fresh)", "quantity": 400, "unit": "g", "category": "meat" },
+      { "name": "Bell Peppers", "quantity": 2, "unit": "pcs", "category": "produce" },
+      { "name": "Onions", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Tortillas", "quantity": 6, "unit": "pcs", "category": "grains" },
+      { "name": "Olive Oil", "quantity": 15, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Slice chicken, bell peppers, and onions into strips. Saute over high heat with cumin and chili until blistered. Serve in warm tortillas."
+  },
+  {
+    "id": "rec-20",
+    "name": "Hearty Beef & Potato Shepherd’s Skillet",
+    "mealType": "dinner",
+    "prepTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "Ground Beef (Fresh)", "quantity": 400, "unit": "g", "category": "meat" },
+      { "name": "Potatoes", "quantity": 300, "unit": "g", "category": "produce" },
+      { "name": "Carrots", "quantity": 150, "unit": "g", "category": "produce" },
+      { "name": "Onions", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Butter", "quantity": 20, "unit": "g", "category": "dairy" }
+    ],
+    "instructions": "Boil and mash potatoes with butter. Brown beef with diced carrots and onion. Top beef mixture with mashed potatoes and broil."
+  },
+  {
+    "id": "rec-21",
+    "name": "Avocado & Tomato Garden Salad",
+    "mealType": "lunch",
+    "prepTimeMinutes": 8,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Spinach / Fresh Greens", "quantity": 100, "unit": "g", "category": "produce" },
+      { "name": "Avocado", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Tomatoes", "quantity": 2, "unit": "pcs", "category": "produce" },
+      { "name": "Olive Oil", "quantity": 15, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Combine fresh greens, chopped avocado, and juicy tomatoes. Dress simply with extra virgin olive oil, salt, and black pepper."
+  },
+  {
+    "id": "rec-22",
+    "name": "Savory Bacon & Garlic Pasta Carbonara",
+    "mealType": "dinner",
+    "prepTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Dry Pasta", "quantity": 200, "unit": "g", "category": "grains" },
+      { "name": "Bacon", "quantity": 100, "unit": "g", "category": "meat" },
+      { "name": "Eggs", "quantity": 2, "unit": "pcs", "category": "dairy" },
+      { "name": "Cheddar Cheese", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "name": "Garlic", "quantity": 2, "unit": "pcs", "category": "produce" }
+    ],
+    "instructions": "Cook pasta. Crisp bacon with minced garlic. Whisk eggs with grated cheese. Toss hot drained pasta with bacon and egg sauce until creamy."
+  },
+  {
+    "id": "rec-23",
+    "name": "Golden Potato Hash with Fried Eggs",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 18,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Potatoes", "quantity": 300, "unit": "g", "category": "produce" },
+      { "name": "Onions", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Eggs", "quantity": 2, "unit": "pcs", "category": "dairy" },
+      { "name": "Butter", "quantity": 20, "unit": "g", "category": "dairy" }
+    ],
+    "instructions": "Finely dice potatoes and onion. Pan fry in butter until edges are crispy and deep golden. Top with sunny-side up eggs."
+  },
+  {
+    "id": "rec-24",
+    "name": "Honey Soy Glazed Salmon Bites",
+    "mealType": "dinner",
+    "prepTimeMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Salmon Fillet (Fresh)", "quantity": 300, "unit": "g", "category": "meat" },
+      { "name": "Soy Sauce", "quantity": 25, "unit": "ml", "category": "pantry" },
+      { "name": "Honey", "quantity": 20, "unit": "g", "category": "pantry" },
+      { "name": "Garlic", "quantity": 2, "unit": "pcs", "category": "produce" },
+      { "name": "White Rice", "quantity": 150, "unit": "g", "category": "grains" }
+    ],
+    "instructions": "Cut salmon into bite-sized cubes. Sear quickly, then pour glaze of soy sauce, honey, and minced garlic to coat. Serve over rice."
+  },
+  {
+    "id": "rec-25",
+    "name": "Broccoli & Cheddar Soup",
+    "mealType": "lunch",
+    "prepTimeMinutes": 22,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Broccoli", "quantity": 300, "unit": "g", "category": "produce" },
+      { "name": "Cheddar Cheese", "quantity": 120, "unit": "g", "category": "dairy" },
+      { "name": "Milk (Whole/Skim)", "quantity": 250, "unit": "ml", "category": "dairy" },
+      { "name": "Butter", "quantity": 25, "unit": "g", "category": "dairy" },
+      { "name": "Garlic", "quantity": 2, "unit": "pcs", "category": "produce" }
+    ],
+    "instructions": "Simmer chopped broccoli and garlic in milk and water until tender. Puree half, stir in butter and shredded cheddar until smooth and rich."
+  },
+  {
+    "id": "rec-26",
+    "name": "Berry Banana Smoothie Bowl",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 5,
+    "servings": 1,
+    "ingredients": [
+      { "name": "Frozen Berries", "quantity": 150, "unit": "g", "category": "frozen" },
+      { "name": "Bananas", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Milk (Whole/Skim)", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "name": "Honey", "quantity": 15, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": "Blend frozen berries, banana, and milk until thick and spoonable. Drizzle with honey and garnish with oats."
+  },
+  {
+    "id": "rec-27",
+    "name": "Savory Garlic Sauteed Spinach with Bacon",
+    "mealType": "lunch",
+    "prepTimeMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Spinach / Fresh Greens", "quantity": 150, "unit": "g", "category": "produce" },
+      { "name": "Bacon", "quantity": 80, "unit": "g", "category": "meat" },
+      { "name": "Garlic", "quantity": 3, "unit": "pcs", "category": "produce" },
+      { "name": "Olive Oil", "quantity": 10, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Render diced bacon until crisp, add garlic slices, toss in fresh spinach and saute for 90 seconds until silky and fragrant."
+  },
+  {
+    "id": "rec-28",
+    "name": "Chicken & Rice Comfort Porridge",
+    "mealType": "dinner",
+    "prepTimeMinutes": 25,
+    "servings": 3,
+    "ingredients": [
+      { "name": "Chicken Breast (Fresh)", "quantity": 250, "unit": "g", "category": "meat" },
+      { "name": "White Rice", "quantity": 100, "unit": "g", "category": "grains" },
+      { "name": "Garlic", "quantity": 3, "unit": "pcs", "category": "produce" },
+      { "name": "Soy Sauce", "quantity": 20, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Simmer shredded chicken and rice in broth with minced garlic until a velvety congee forms. Finish with soy sauce and black pepper."
+  },
+  {
+    "id": "rec-29",
+    "name": "Peanut Butter Honey Toast with Apple Slices",
+    "mealType": "breakfast",
+    "prepTimeMinutes": 5,
+    "servings": 1,
+    "ingredients": [
+      { "name": "Sliced Sandwich Bread", "quantity": 2, "unit": "pcs", "category": "grains" },
+      { "name": "Peanut Butter", "quantity": 30, "unit": "g", "category": "pantry" },
+      { "name": "Apples", "quantity": 1, "unit": "pcs", "category": "produce" },
+      { "name": "Honey", "quantity": 10, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": "Spread crunchy or smooth peanut butter over warm toast, arrange crisp apple slices on top, and finish with a warm honey drizzle."
+  },
+  {
+    "id": "rec-30",
+    "name": "Baked Honey Mustard Glazed Pork & Veggies",
+    "mealType": "dinner",
+    "prepTimeMinutes": 28,
+    "servings": 2,
+    "ingredients": [
+      { "name": "Pork Chops", "quantity": 300, "unit": "g", "category": "meat" },
+      { "name": "Carrots", "quantity": 150, "unit": "g", "category": "produce" },
+      { "name": "Potatoes", "quantity": 200, "unit": "g", "category": "produce" },
+      { "name": "Honey", "quantity": 20, "unit": "g", "category": "pantry" },
+      { "name": "Olive Oil", "quantity": 15, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": "Toss pork chops, sliced carrots, and cubed potatoes in olive oil and honey glaze. Roast at 200°C for 25 minutes until caramelized."
+  }
+]

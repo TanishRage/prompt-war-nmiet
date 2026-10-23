@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Design Tokens - Light Theme */
+  --background: 248 250 252; /* slate-50 */
+  --foreground: 15 23 42;    /* slate-900 */
+  
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+  
+  --primary: 5 150 105;       /* emerald-600 */
+  --primary-foreground: 255 255 255;
+  
+  --warning: 217 119 6;       /* amber-600 */
+  --warning-foreground: 255 255 255;
+  
+  --danger: 220 38 38;        /* red-600 */
+  --danger-foreground: 255 255 255;
+  
+  --muted: 241 245 249;       /* slate-100 */
+  --muted-foreground: 100 116 139; /* slate-500 */
+  
+  --border: 226 232 240;      /* slate-200 */
+  --ring: 16 185 129;         /* emerald-500 */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Design Tokens - Dark Theme */
+    --background: 11 15 25;   /* deep rich slate */
+    --foreground: 241 245 249; /* slate-100 */
+    
+    --card: 19 24 38;         /* slate-900 elevated */
+    --card-foreground: 241 245 249;
+    
+    --primary: 16 185 129;     /* emerald-500 */
+    --primary-foreground: 255 255 255;
+    
+    --warning: 245 158 11;     /* amber-500 */
+    --warning-foreground: 255 255 255;
+    
+    --danger: 239 68 68;       /* red-500 */
+    --danger-foreground: 255 255 255;
+    
+    --muted: 30 41 59;         /* slate-800 */
+    --muted-foreground: 148 163 184; /* slate-400 */
+    
+    --border: 30 41 59;        /* slate-800 */
+    --ring: 16 185 129;        /* emerald-500 */
+  }
+}
+
+/* Explicit class-based dark override support */
+.dark {
+  --background: 11 15 25;
+  --foreground: 241 245 249;
+  --card: 19 24 38;
+  --card-foreground: 241 245 249;
+  --primary: 16 185 129;
+  --primary-foreground: 255 255 255;
+  --warning: 245 158 11;
+  --warning-foreground: 255 255 255;
+  --danger: 239 68 68;
+  --danger-foreground: 255 255 255;
+  --muted: 30 41 59;
+  --muted-foreground: 148 163 184;
+  --border: 30 41 59;
+  --ring: 16 185 129;
+}
+
+body {
+  color: rgb(var(--foreground));
+  background-color: rgb(var(--background));
+  font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}

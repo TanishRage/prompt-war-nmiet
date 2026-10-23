@@ -1,0 +1,49 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isValidPantryItem(data) {
+      return data.name is string 
+        && data.name.size() >= 1 
+        && data.name.size() <= 60
+        && data.quantity is number 
+        && data.quantity >= 0.1 
+        && data.quantity <= 1000.0
+        && data.unit in ['g', 'kg', 'ml', 'l', 'pcs']
+        && data.category in ['produce', 'dairy', 'meat', 'grains', 'pantry', 'frozen', 'other']
+        && data.storage in ['fridge', 'freezer', 'shelf']
+        && data.status in ['active', 'used', 'wasted']
+        && data.source in ['manual', 'ai'];
+    }
+
+    // Default deny all access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Scoped user documents
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+
+      // Pantry Items subcollection
+      match /pantryItems/{itemId} {
+        allow read, delete: if isOwner(userId);
+        allow create, update: if isOwner(userId) && isValidPantryItem(request.resource.data);
+      }
+
+      // Meal plans subcollection (reserved for future prompt)
+      match /mealPlans/{planId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+  }
+}
